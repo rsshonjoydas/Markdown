@@ -6,7 +6,7 @@
 
 <p align="center">
   <h3 align="center">Markdown</h3>
-  <div align="center"><h3>Project Link: <a href="https://github.com/rsshonjoydas/TypeScrip">GitHub</a></h3></div></p>
+  <div align="center"><h3>Project Link: <a href="https://github.com/rsshonjoydas/Markdown">GitHub</a></h3></div></p>
 
 ## Agenda
 
@@ -16,7 +16,7 @@
 - [Markdown Editors](#markdown-editors)
 - [General Markdown](#general-markdown)
 - [GitHub Markdown](#github-markdown)
-- [Convert Markdown to HTML](#convert-markdown-to-html)
+- [Convert](#convert)
 
 ### What is Markdown?
 * Lightweight markup language with a plain text formatting syntax
@@ -145,9 +145,15 @@ __This text__ is italics
 * [x] Task 2
 * [ ] Task 3
 
+### Convert
+
 ##### Convert Markdown to HTML
 
 * [Click Me](https://markdowntohtml.com/)
+
+##### Convert HTML to Markdown
+
+* [Click Me](https://www.browserling.com/tools/html-to-markdown)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
