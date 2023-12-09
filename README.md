@@ -1,4 +1,3 @@
-
 [![Facebook-Page][facebook-shield]][facebook-url]
 [![Twitter][twitter-shield]][twitter-url]
 [![Instagram][instagram-shield]][instagram-url]
@@ -19,35 +18,36 @@
 - [Convert](#convert)
 
 ### What is Markdown?
-* Lightweight markup language with a plain text formatting syntax
-* Can be converted into HTML/XHTML and other formats
-* It is main purpose is readability and easy of use
+
+- Lightweight markup language with a plain text formatting syntax
+- Can be converted into HTML/XHTML and other formats
+- It is main purpose is readability and easy of use
 
 ### What is it used for?
 
-* Readme files (GitHub, etc)
-* Form & Blog Posts
-* Used in many Static site generators
+- Readme files (GitHub, etc)
+- Form & Blog Posts
+- Used in many Static site generators
 
 ### Some things you can format
 
-* Headings
-* Lists
-* Emphasis
-* Links
-* Blocks of Code
-* Images
-* Blockquote
-* Horizontal Rules
+- Headings
+- Lists
+- Emphasis
+- Links
+- Blocks of Code
+- Images
+- Blockquote
+- Horizontal Rules
 
 ### Markdown Editors
 
-* Text Editor (VSCode, Atom, etc)
-  * Extension ([Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced))
+- Text Editor (VSCode, Atom, etc)
+  - Extension ([Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced))
 
 ### General Markdown
 
-* Headings
+- Headings
 
 # Heading 1
 
@@ -61,61 +61,79 @@
 
 ###### Heading 6
 
-* italics
-*This text* is italics
-_This text_ is italics
+- italics
+  _This text_ is italics
+  _This text_ is italics
 
 <!-- ? Strong -->
+
 **This text** is italics
-__This text__ is italics
+**This text** is italics
 
 <!-- ? Strike Through -->
+
 ~~This text~~ is strike through
 
 <!-- ? Horizontal Rule -->
 
 ---
 
-* Astricts
-\*This text\* is show astricts
+- Astricts
+  \*This text\* is show astricts
 
 <!--? Blockquote -->
+
 > This is a quote
 
-* Links
-[RS Shonjoy](http://twitter.com/rsshonjoy)
-[RS Shonjoy](https://twitter.com/rsshonjoy "rsshonjoydas")
+- Links
+  [RS Shonjoy](http://twitter.com/rsshonjoy)
+  [RS Shonjoy](https://twitter.com/rsshonjoy 'rsshonjoydas')
 
-* Unordered List
+- Unordered List
 
-* Item 1
-* Item 2
-* Item 3
-  * Nested Item 1
-  * Nested Item 2
-    * More Nested Item 1
-    * More Nested Item 2
+- Item 1
+- Item 2
+- Item 3
 
-* Ordered List
+  - Nested Item 1
+  - Nested Item 2
+    - More Nested Item 1
+    - More Nested Item 2
+
+- Ordered List
 
 1. Item 1
 1. Item 2
 1. Item 3
 
-* Inline Code Block
-`<p>This is a paragraph</p>`
+- Inline Code Block
+  `<p>This is a paragraph</p>`
 
-* Images
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
+- Images
+
+1. Online image
+   ![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+2. local image
+
+- image without space
+  ![space](./images/markdown.png)
+
+- image with space
+  ![space](./images/mark%20down.png)
+  ![space](<./images/mark down.png>)
 
 ### GitHub Markdown
-* Code Blocks
+
+- Code Blocks
+
 ```bash
   npm install
   npm start
 ```
 
-  * JavaScript
+- JavaScript
+
 ```js
   add (num1, num2) => {
     return num1 + num2
@@ -124,7 +142,8 @@ __This text__ is italics
   add(3, 7)
 ```
 
-  * Python
+- Python
+
 ```py
   def add(num1, num2):
     return num1 + num2
@@ -134,27 +153,26 @@ __This text__ is italics
 
 ### Table
 
-| Name      | Email                         |
-| ----------| ------------------------------|
-| Shonjoy   | rsshonjoydas@gmail.com        |
-| Joy       | rshonjoy@gmail.com            |
+| Name    | Email                  |
+| ------- | ---------------------- |
+| Shonjoy | rsshonjoydas@gmail.com |
+| Joy     | rshonjoy@gmail.com     |
 
 ### Task Lists
 
-* [ ] Task 1
-* [x] Task 2
-* [ ] Task 3
+- [ ] Task 1
+- [x] Task 2
+- [ ] Task 3
 
 ### Convert
 
 ##### Convert Markdown to HTML
 
-* [Click Me](https://markdowntohtml.com/)
+- [Click Me](https://markdowntohtml.com/)
 
 ##### Convert HTML to Markdown
 
-* [Click Me](https://www.browserling.com/tools/html-to-markdown)
-
+- [Click Me](https://www.browserling.com/tools/html-to-markdown)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
